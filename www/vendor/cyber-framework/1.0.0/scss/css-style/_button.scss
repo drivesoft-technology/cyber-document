@@ -1,0 +1,23 @@
+/* =============================================
+ * setting
+ * ============================================= */
+
+@import '../variables/_setting';
+
+.btn { border: none; border-radius: 2px; border: 1px solid #FFF; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; background-color: #ECF0F1; }
+.btn:hover { cursor: pointer; color: $color-midnightblue; }
+
+.btn-hover { -webkit-transition-duration: 0.4s; transition-duration: 0.4s; }
+.btn-hover:hover, button.btn-hover:hover { color: rgba(255,255,255, 0.9); box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); }
+
+.btn-disabled { opacity: 0.6; cursor: not-allowed; }
+
+/* =============================================
+ * color
+ * ============================================= */
+
+.btn-success      { background-color: $color-success; color: #FFF; }
+.btn-warning      { background-color: $color-warning; color: #FFF; }
+.btn-error        { background-color: $color-error;color: #FFF; }
+.btn-info         { background-color: $color-info; color: #FFF; }
+.btn-primary      { background-color: $color-primary; color: #FFF; }

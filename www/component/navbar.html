@@ -1,0 +1,46 @@
+<header class="navbar clearfix">
+        <div class="container">
+            <div class="navbar-header">
+                <button id="navbar-toggle" class="navbar-toggle" type="button">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="{{ url('/') }}" title="drivesoft techlogogy co., ltd.">
+                    <img class="navbar-logo" width="200" height="100%" src="{{ url('/images/drivesoft-logo-name.png') }}<?php echo \CSetting::$cacheVersion; ?>" alt="drivesoft techlogogy co., ltd."/>
+                </a>
+            </div>
+            <div id="navbar-nav" class="navbar-nav">
+                <ul class="nav">
+                    <li>
+                        <a href="{{ url('/') }}" title="Home">Home </a>
+                    </li>
+                    <li id="dropdown" class="dropdown">
+                        <a href="#">Production <i class="fa fa-angle-down"></i></a>
+                        <ul id="dropdown-menu" class="dropdown-menu">
+                            <li><a href="{{ url('/book') }}" title="E-BOOK - หนังสือ">E-BOOK - หนังสือ</a></li>
+                            <li><a href="{{ url('/shopcode') }}" title="SHOP CODE - ช้อปโค้ด">SHOP CODE - ช้อปโค้ด</a></li>
+                            <li><a href="{{ url('/shopsale') }}" title="SHOP SALE - ช๊อปเซลล์">SHOP SALE - ช๊อปเซลล์</a></li>
+                        </ul>
+                    </li>
+                    <li id="dropdown" class="dropdown">
+                        <a href="#">Open Source <i class="fa fa-angle-down"></i></a>
+                        <ul id="dropdown-menu" class="dropdown-menu">
+                            <li><a href="{{ url('/cyber') }}" title="Cyber Framework">Cyber Framework</a></li>
+                        </ul>
+                    </li>
+                    <li id="dropdown" class="dropdown">
+                        <a href="#">Learning <i class="fa fa-angle-down"></i></a>
+                        <ul id="dropdown-menu" class="dropdown-menu">
+                            <li><a href="{{ url('/tutorial') }}" title="Online Tutorial">Online Tutorial</a></li>
+                            <li><a href="{{ url('/training') }}" title="Online Training">Online Training</a></li>
+                        </ul>
+                    </li>
+                    <li id="dropdown" class="dropdown">
+                        <a href="{{ url('/studio') }}" title="Studio">Studio</a>
+                    </li>
+                    <li><a href="{{ url('/contact') }}" title="Contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>

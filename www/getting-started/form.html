@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title> Form | CYBER FRAMEWORK 1.0.0 </title>
+        <link rel="shortcut icon" href="../images/favicon-32x32.png" type="image/png">
+        <link rel="icon" href="../images/favicon-32x32.png" type="image/png">
+        <meta property="fb:app_id" content="206954636391257" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Cyber Framework 1.0.0" />
+        <meta property="og:description" content="cyber framework, max width 1200 px, 15 colume, flat ui style" />
+        <meta property="og:url" content="https://drivesoft.co.th/cyber" />
+        <meta property="og:site_name" content="cyber dot drivesoft dot net" />
+        <meta property="og:image" content="../images/demo.png" />
+        <meta name="keywords" content="CSS, CSS Framework, Open Source" />
+        <meta name="description" content="cyber framework, max width 1200 px, 15 colume, flat ui style" />
+        <meta name="author" content="Eakkabin Jaikeawma <eakkabin@drivesoft.co.th>" />
+        <script>document.write('<base href="' + document.location + '" />');</script>
+        <link rel="stylesheet" type="text/css" href="../vendor/cyber-framework/1.0.0/styles/cyber.min.css?v=1.0.0" />
+        <link rel="stylesheet" type="text/css" href="../vendor/cyber-framework/1.0.0/styles/cyber-component.min.css?v=1.0.0" />
+        <link rel="stylesheet" type="text/css" href="../vendor/prismjs/1.0.0/prism-okaidia.min.css?v=1.0.0" />
+        <link rel="stylesheet" type="text/css" href="../assets/styles/cyber-document.min.css?v=1.0.0" />
+		<script type="text/javascript" src="../assets/scripts/ga.js?v=1.0.0"></script>
+    </head>
+    <body id="top">
+    	<header class="header">
+			<div class="container-fluid">
+				<div class="row fluid">
+					<div class="col-7">
+						<a href="../"><h1 class="logo-name font-raleway color-turquoise">Cyber <small class="font-sans-serif">1.0.0</small></h1></a>
+					</div>
+					<div class="col-8">
+						<ul class="navbar">
+							<li><a href="../getting-started/index.html">Guide</a></li>
+							<li>Example</li>
+							<li>Theme</li>
+							<li>API</li>
+						</ul>
+					</div>
+				</div>	
+			</div>
+    	</header>
+	    <div class="container">
+			<div class="row">
+				<div class="col-11">
+
+					<!-- Form Default -->
+
+					<div class="row">
+						<h1 class="doc-title"> Form Default </h1>
+						<form class="col-15 form">
+							<div class="form-group">
+								<label for="username"> Username: </label>
+								<input type="text" name="username" id="username" placeholder="Username" />
+							</div>
+							<div class="form-group">
+								<label for="password"> Password: </label>
+								<input type="password" name="password" id="password" placeholder="Password" />
+							</div>
+							<div class="form-group">
+								<label for="email"> Email: </label>
+								<input type="email" name="email" id="email" placeholder="E-Mail" />
+							</div>
+							<div class="form-group">
+								<label for="date"> Date: </label>
+								<input type="date" name="date" id="date" placeholder="Date" />
+							</div>
+							<div class="form-group">
+								<label for="time"> Time: </label>
+								<input type="time" name="time" id="time" placeholder="Time" />
+							</div>
+							<div class="form-group">
+								<label for="time"> List: </label>
+								<select class="form-select" name="select" id="select">
+									<option value="1"> List 1 </option>
+									<option value="2"> List 2 </option>
+									<option value="3"> List 3 </option>
+									<option value="4"> List 4 </option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="checkbox"> Checkbox: </label>
+								<div class="form-checkbox">
+									<input type="checkbox" id="checkbox" name="checkbox" checked />
+									<label for="checkbox"> Checkbox #1 </label>
+								</div>
+								<div class="form-checkbox">
+									<input type="checkbox" id="checkbox" name="checkbox" checked />
+									<label for="checkbox"> Checkbox #2 </label>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="checkbox"> Radio: </label>
+								<div class="form-radio">
+									<input type="radio" id="radio" name="radio" checked />
+									<label for="radio"> Radio #1 </label>
+								</div>
+								<div class="form-radio">
+									<input type="radio" id="radio" name="radio" />
+									<label for="radio"> Radio #2 </label>
+								</div>
+							</div>
+							<div class="form-group">
+								<input class="btn" type="submit" onClick="return false;" />
+							</div>
+						</form><br />
+					</div>
+
+					<!-- Form Horizontal -->
+
+					<div class="row">
+						<h1 class="doc-title"> Form Horizontal </h1>
+						<form class="col-15 form form-horizontal">
+							<div class="form-group col-3">
+								<label for="username"> Username: </label>
+								<div class="form-control">
+									<input type="text" name="username" id="username" placeholder="Username" />
+								</div>
+							</div>
+							<div class="form-group col-3">
+								<label for="password"> Password: </label>
+								<div class="form-control">
+									<input type="password" name="password" id="password" placeholder="Password" />
+								</div>
+							</div>
+							<div class="form-group col-3">
+								<label for="email"> Email: </label>
+								<div class="form-control">
+									<input type="email" name="email" id="email" placeholder="E-Mail" />
+								</div>
+							</div>
+							<div class="form-group col-3">
+								<label for="date"> Date: </label>
+								<div class="form-control">
+									<input type="date" name="date" id="date" placeholder="Date" />
+								</div>
+							</div>
+							<div class="form-group col-3">
+								<label for="time"> Time: </label>
+								<div class="form-control">
+									<input type="time" name="time" id="time" placeholder="Time" />
+								</div>
+							</div>
+							<div class="form-group col-3">
+								<label for="select"> List: </label>
+								<div class="form-control">
+									<select class="form-select" name="select" id="select">
+										<option value="1"> List 1 </option>
+										<option value="2"> List 2 </option>
+										<option value="3"> List 3 </option>
+										<option value="4"> List 4 </option>
+									</select>
+								</div>
+							</div>
+							<div class="form-group col-3">
+								<label for="checkbox"> Checkbox: </label>
+								<div class="form-control">
+									<input type="checkbox" id="checkbox" name="checkbox" checked />
+									<label> Checkbox #1 </label>
+								</div>
+							</div>
+							<div class="form-group col-3">
+								<label for="radio"> Radio: </label>
+								<div class="form-control">
+									<input type="radio" id="radio" name="radio" checked />
+									<label> Radio #1 </label>
+								</div>
+							</div>
+							<div class="form-group col-12">
+								<input class="btn " type="submit" onClick="return false;" />
+							</div>
+						</form>
+					</div>
+
+					<div class="row">
+						<h1 class="doc-title"> Form Horizontal </h1>
+						<form class="col-15 form">
+							<div class="form-group col-7 space">
+								<label for="username"> Username: </label>
+								<input class="form-input" type="text" name="username" id="username" placeholder="Username" />
+							</div>
+							<div class="form-group col-7 space">
+								<label for="password"> Password: </label>
+								<input class="form-input" type="password" name="password" id="password" placeholder="Password" />
+							</div>
+							<div class="form-group col-1">
+								<label for="submit"> &nbsp; </label>
+								<input class="btn" type="submit" name="submit" id="submit" onClick="return false;" />
+							</div>
+						</form>
+					</div>
+
+					<div class="row">
+						<h1 class="doc-title"> Form Vertical </h1>
+						<form class="col-15 form form-vertical">
+							<div class="form-group space">
+								<label class="col-2 form-label"> Username </label>
+								<div class="col-10 form-control">
+									<input class="form-input" type="text" name="username" id="username" placeholder="Username" />
+								</div>
+							</div>
+							<div class="form-group space">
+								<label class="col-2 form-label"> Password </label>
+								<div class="col-10 form-control">
+									<input class="form-input" type="password" name="password" id="password" placeholder="Password" />
+								</div>
+							</div>
+						</form>
+					</div>
+
+					<!--
+					<h1 class="doc-title"> Form Vertical </h1>
+					<div class="row">
+						<div class="col col-15">
+							<form class="form form-vertical">
+								<div class="form-control col-4 getter">
+									<label class="form-label"> Username </label>
+									<div class="form-group">
+										<input class="form-input" type="text" name="username" id="username" placeholder="Username" />
+									</div>     
+								</div>  
+								<div class="form-control col-4 getter">
+									<label class="form-label"> Password </label>
+									<div class="form-group">
+										<input class="form-input" type="password" name="password" id="password" placeholder="Password" />
+									</div>     
+								</div> 
+								<div class="form-control col-3 getter">
+									<label class="form-label"> Age </label>
+									<div class="form-group">
+										<input class="form-input" type="text" name="age" id="age" placeholder="Age" />
+									</div>     
+								</div> 
+								<div class="form-control col-3 getter">
+									<label class="form-label"> Experience </label>
+									<div class="form-group">
+										<input class="form-input" type="text" name="experience" id="experience" placeholder="Experience" />
+									</div>     
+								</div>
+								<div class="form-control col-2">
+									<label class="form-label"> &nbsp; </label>
+									<div class="form-group">
+										<input class="form-submit" type="submit" name="password" id="password" value="Submit" onClick="return false;" />
+									</div>
+								</div>
+							</form>
+						</div>
+					</div><br />
+					<h1 class="doc-title"> Table Horizontal </h1>
+					<div class="row">
+						<div class="col col-15">
+							<form class="form form-horizontal">
+								<div class="form-control">
+									<label class="form-label col-2 form-label-right"> Username </label>
+									<div class="form-group col-13">
+										<input class="form-input" type="text" name="username" id="username" placeholder="Username" />
+									</div>     
+								</div>  
+								<div class="form-control">
+									<label class="form-label col-2 form-label-right"> Password </label>
+									<div class="form-group col-13">
+										<input class="form-input" type="password" name="password" id="password" placeholder="Password" />
+									</div> 
+								</div> 
+								<div class="form-group col-offset-2">
+									<input class="form-submit" type="submit" name="password" id="password" value="Submit" onClick="return false;" />
+								</div>     
+							</form>
+						</div>
+					</div>	
+					-->
+				</div>
+				<div class="col-4" style="padding-left:15px;padding-right:15px;">
+					<div class="panel" style="margin-top:50px;">
+                        <div class="panel-header"> Getting Started: </div>
+						<div class="panel-body">
+							<ul>
+								<li><a href="container.html">Container</a></li>
+								<li><a href="grid.html">Grid System</a></li>
+								<li><a href="table.html">Table</a></li>
+								<li><a href="form.html">Form</a></li>
+							</ul>
+						</div>	
+                    </div>
+				</div>
+			</div>	
+	    </div> <br /><br /><br /><br />
+		<a href="#top" class="to-top">Top</a>
+	    <script type="text/javascript" src="../vendor/jquery/2.2.4/jquery.min.js?v=1.0.0"></script>
+	    <script type="text/javascript" src="../vendor/prismjs/1.0.0/prism.min.js?v=1.0.0"></script>
+		<script type="text/javascript" src="../assets/scripts/main.min.js?v=1.0.0"></script>
+    </body>
+</html>

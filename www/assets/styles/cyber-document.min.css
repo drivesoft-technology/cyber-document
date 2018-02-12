@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css?family=Prompt|Raleway');
+
+/* ==============================================================================
+ * setting
+ * ============================================================================== */
+
+a { text-decoration: none; color: #2C3E50; }
+a:hover { color: #1ABC9C; }
+
+/* ==============================================================================
+ * header
+ * ============================================================================== */
+
+.header { padding: 10px 0px; border-top: 2px solid #1ABC9C; }
+			
+.font-raleway { font-family: 'Raleway', sans-serif; }
+.font-sans-serif { font-family: sans-serif; }
+			
+.col { padding: 2px; }
+.col > .col-example { height: 35px; padding: 9px 0; color: #FFFFFF; }
+			
+.logo { padding: 30px 0; }
+.logo-name { font-size: 1.8em; }
+.logo-img, .logo-name, .detail, .logo-detail { text-align: center; }
+			
+.navbar { margin: 0; padding: 0; list-style: none; }
+.navbar li { margin: 0; padding: 0; padding: 16px 15px; border-bottom: 2px solid #FFFFFF; float: left; display: block; width: 25%; text-align: center; }
+.navbar li:hover { border-bottom: 2px solid #1ABC9C; cursor: pointer;  }
+
+/* ==============================================================================
+ * content
+ * ============================================================================== */
+
+a.bth-start, a.bth-github { padding: 15px 25px; text-decoration: none; border-radius: 6px; margin-top: 15px; font-size: 0.9em; }
+a.bth-start { background-color: #1ABC9C; color: #FFFFFF; }
+a.bth-github { border: 1px solid #1ABC9C; color: #2C3E50;  }
+			
+.detail h1 { font-size: 1.5em; }
+.detail h2 { font-size: 1.5em; padding-top: 0; margin-top: 0; }
+.detail h3 { font-size: 1.2em; padding-top: 0; margin-top: 35px; }
+			
+@media only screen and (min-width: 480px) {
+	.detail h1 { font-size: 2.5em; }
+	.detail h2 { font-size: 2.0em; }
+	.detail h3 { font-size: 1.5em; }
+}
+			
+@media only screen and (min-width: 768px) {
+				
+    .header { padding: 10px 60px; }
+				
+    .logo { padding: 70px 0; }
+    .logo-name { padding: 11px 15px; text-align: left; }
+				
+    .navbar { float: right; display: inline-flex; }
+
+    a.bth-start, a.bth-github { padding: 15px 35px; }
+
+    .logo-img, .logo-detail { text-align: left; }
+    .logo-img img { margin-top: 10px; }
+				
+    .detail { text-align: right; }
+    .detail h1 { font-size: 3.5em; }
+    .detail h2 { font-size: 3.0em; }
+    .detail h3 { font-size: 1.5em; }
+				
+    .logo-detail { font-size: 3.0em; }
+				
+}
+			
+.doc-title { padding-bottom: 15px; border-bottom: 1px solid #EEE; margin-bottom: 10px; font-size: 1.8em; }
+.doc-title a { float: right; font-size: 0.6em; color: #1ABC9C; padding-top: 5px; }
+.doc-detail { font-size: 1.6em; font-family: 'Prompt', sans-serif; padding-top: 10px; line-height: 1.6em; }
+.doc-link { color: #1ABC9C; border-bottom: 1px dotted #1ABC9C;  }
+.doc-link:hover { color: #2C3E50; border-bottom: 1px dotted #2C3E50; }
+
+/*
+.logo-icon { position: relative; margin-top: 10px; padding: 5px 25px; width: 250px; border-radius: 10px; margin-right: 5px; border: 5px solid #FFF;  background: linear-gradient(141DEG, #0FB8AD 0%, #1FC8DB 51%, #2CB5E8 75%); color: #FFF; }
+.logo-icon h1 { margin: 0; padding: 0; font-size: 10em; font-weight: 400;  } 
+.logo-icon h1 small { font-size: 0.4em; color: #FFF; }
+*/

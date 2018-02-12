@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title> Table | CYBER FRAMEWORK 1.0.0 </title>
+        <link rel="shortcut icon" href="../images/favicon-32x32.png" type="image/png">
+        <link rel="icon" href="../images/favicon-32x32.png" type="image/png">
+        <meta property="fb:app_id" content="206954636391257" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Cyber Framework 1.0.0" />
+        <meta property="og:description" content="cyber framework, max width 1200 px, 15 colume, flat ui style" />
+        <meta property="og:url" content="https://drivesoft.co.th/cyber" />
+        <meta property="og:site_name" content="cyber dot drivesoft dot net" />
+        <meta property="og:image" content="../images/demo.png" />
+        <meta name="keywords" content="CSS, CSS Framework, Open Source" />
+        <meta name="description" content="cyber framework, max width 1200 px, 15 colume, flat ui style" />
+        <meta name="author" content="Eakkabin Jaikeawma <eakkabin@drivesoft.co.th>" />
+        <script>document.write('<base href="' + document.location + '" />');</script>
+        <link rel="stylesheet" type="text/css" href="../vendor/cyber-framework/1.0.0/styles/cyber.min.css?v=1.0.0" />
+        <link rel="stylesheet" type="text/css" href="../vendor/cyber-framework/1.0.0/styles/cyber-component.min.css?v=1.0.0" />
+        <link rel="stylesheet" type="text/css" href="../vendor/prismjs/1.0.0/prism-okaidia.min.css?v=1.0.0" />
+        <link rel="stylesheet" type="text/css" href="../assets/styles/cyber-document.min.css?v=1.0.0" />
+        <style> .col div { padding: 2em 0 3.3em 0; } </style>
+		<script type="text/javascript" src="../assets/scripts/ga.js?v=1.0.0"></script>
+    </head>
+    <body id="top">
+    	<header class="header">
+			<div class="container-fluid">
+				<div class="row fluid">
+					<div class="col-7">
+						<a href="../"><h1 class="logo-name font-raleway color-turquoise">Cyber <small class="font-sans-serif">1.0.0</small></h1></a>
+					</div>
+					<div class="col-8">
+						<ul class="navbar">
+							<li><a href="../getting-started/index.html">Guide</a></li>
+							<li>Example</li>
+							<li>Theme</li>
+							<li>API</li>
+						</ul>
+					</div>
+				</div>	
+			</div>
+    	</header>
+	    <div class="container">
+			<div class="row">
+				<div class="col-11">
+					<h1 class="doc-title" id="default"> Table Default </h1>
+					<div class="row text-center">
+						<div class="col col-15">
+							<table class="table">
+								<thead>
+									<tr>
+										<th> Header Column #1 </th>
+										<th> Header Column #2 </th>
+										<th> Header Column #3 </th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td> #1 Body Column 1 </td>
+										<td> #1 Body Column 2 </td>
+										<td> #1 Body Column 3 </td>
+									</tr>
+									<tr>
+										<td> #2 Body Column 1 </td>
+										<td> #2 Body Column 2 </td>
+										<td> #2 Body Column 3 </td>
+									</tr>
+									<tr>
+										<td> #3 Body Column 1 </td>
+										<td> #3 Body Column 2 </td>
+										<td> #3 Body Column 3 </td>
+									</tr>
+								</tbody>
+								<tfoot>
+									<tr>
+										<td> Footer Column #1 </td>
+										<td> Footer Column #2 </td>
+										<td> Footer Column #3 </td>
+									</tr>
+								</tfoot>
+							</table>
+							<pre><code class="language-html">&lt;table class="table"&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt; Header Column #1 &lt;/th&gt;
+            &lt;th&gt; Header Column #2 &lt;/th&gt;
+            &lt;th&gt; Header Column #3 &lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt; #1 Body Column 1 &lt;/td&gt;
+            &lt;td&gt; #1 Body Column 2 &lt;/td&gt;
+            &lt;td&gt; #1 Body Column 3 &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt; #2 Body Column 1 &lt;/td&gt;
+            &lt;td&gt; #2 Body Column 2 &lt;/td&gt;
+            &lt;td&gt; #2 Body Column 3 &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt; #3 Body Column 1 &lt;/td&gt;
+            &lt;td&gt; #3 Body Column 2 &lt;/td&gt;
+            &lt;td&gt; #3 Body Column 3 &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+    &lt;tfoot&gt;
+        &lt;tr&gt;
+            &lt;td&gt; Footer Column #1 &lt;/td&gt;
+            &lt;td&gt; Footer Column #2 &lt;/td&gt;
+            &lt;td&gt; Footer Column #3 &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tfoot&gt;
+&lt;/table&gt;</code></pre>
+						</div>
+					</div><br /><br />
+					<h1 class="doc-title" id="fluid"> Table Fluid </h1>
+					<div class="row text-center">
+						<div class="col col-15">
+							<table class="table table-fluid">
+								<thead>
+									<tr>
+										<th> Header Column #1 </th>
+										<th> Header Column #2 </th>
+										<th> Header Column #3 </th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td> #1 Body Column 1 </td>
+										<td> #1 Body Column 2 </td>
+										<td> #1 Body Column 3 </td>
+									</tr>
+									<tr>
+										<td> #2 Body Column 1 </td>
+										<td> #2 Body Column 2 </td>
+										<td> #2 Body Column 3 </td>
+									</tr>
+									<tr>
+										<td> #3 Body Column 1 </td>
+										<td> #3 Body Column 2 </td>
+										<td> #3 Body Column 3 </td>
+									</tr>
+								</tbody>
+								<tfoot>
+									<tr>
+										<td> Footer Column #1 </td>
+										<td> Footer Column #2 </td>
+										<td> Footer Column #3 </td>
+									</tr>
+								</tfoot>
+							</table>
+							<pre><code class="language-html">&lt;table class="table table-fluid"&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt; Header Column #1 &lt;/th&gt;
+            &lt;th&gt; Header Column #2 &lt;/th&gt;
+            &lt;th&gt; Header Column #3 &lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt; #1 Body Column 1 &lt;/td&gt;
+            &lt;td&gt; #1 Body Column 2 &lt;/td&gt;
+            &lt;td&gt; #1 Body Column 3 &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt; #2 Body Column 1 &lt;/td&gt;
+            &lt;td&gt; #2 Body Column 2 &lt;/td&gt;
+            &lt;td&gt; #2 Body Column 3 &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt; #3 Body Column 1 &lt;/td&gt;
+            &lt;td&gt; #3 Body Column 2 &lt;/td&gt;
+            &lt;td&gt; #3 Body Column 3 &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+    &lt;tfoot&gt;
+        &lt;tr&gt;
+            &lt;td&gt; Footer Column #1 &lt;/td&gt;
+            &lt;td&gt; Footer Column #2 &lt;/td&gt;
+            &lt;td&gt; Footer Column #3 &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tfoot&gt;
+&lt;/table&gt;</code></pre>
+						</div>
+					</div><br /><br />
+					<h1 class="doc-title" id="hover"> Table Hover </h1>
+					<div class="row text-center">
+						<div class="col col-15">
+							<table class="table table-hover">
+								<thead>
+									<tr>
+										<th> Header Column #1 </th>
+										<th> Header Column #2 </th>
+										<th> Header Column #3 </th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td> #1 Body Column 1 </td>
+										<td> #1 Body Column 2 </td>
+										<td> #1 Body Column 3 </td>
+									</tr>
+									<tr>
+										<td> #2 Body Column 1 </td>
+										<td> #2 Body Column 2 </td>
+										<td> #2 Body Column 3 </td>
+									</tr>
+									<tr>
+										<td> #3 Body Column 1 </td>
+										<td> #3 Body Column 2 </td>
+										<td> #3 Body Column 3 </td>
+									</tr>
+								</tbody>
+								<tfoot>
+									<tr>
+										<td> Footer Column #1 </td>
+										<td> Footer Column #2 </td>
+										<td> Footer Column #3 </td>
+									</tr>
+								</tfoot>
+							</table>
+							<pre><code class="language-html">&lt;table class="table table-hover"&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt; Header Column #1 &lt;/th&gt;
+            &lt;th&gt; Header Column #2 &lt;/th&gt;
+            &lt;th&gt; Header Column #3 &lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt; #1 Body Column 1 &lt;/td&gt;
+            &lt;td&gt; #1 Body Column 2 &lt;/td&gt;
+            &lt;td&gt; #1 Body Column 3 &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt; #2 Body Column 1 &lt;/td&gt;
+            &lt;td&gt; #2 Body Column 2 &lt;/td&gt;
+            &lt;td&gt; #2 Body Column 3 &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt; #3 Body Column 1 &lt;/td&gt;
+            &lt;td&gt; #3 Body Column 2 &lt;/td&gt;
+            &lt;td&gt; #3 Body Column 3 &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+    &lt;tfoot&gt;
+        &lt;tr&gt;
+            &lt;td&gt; Footer Column #1 &lt;/td&gt;
+            &lt;td&gt; Footer Column #2 &lt;/td&gt;
+            &lt;td&gt; Footer Column #3 &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tfoot&gt;
+&lt;/table&gt;</code></pre>
+						</div>
+					</div><br /><br />
+					<h1 class="doc-title" id="hover-fluid"> Table Hover + Fluid </h1>
+					<div class="row text-center">
+						<div class="col col-15">
+							<table class="table table-fluid table-hover">
+								<thead>
+									<tr>
+										<th> Header Column #1 </th>
+										<th> Header Column #2 </th>
+										<th> Header Column #3 </th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td> #1 Body Column 1 </td>
+										<td> #1 Body Column 2 </td>
+										<td> #1 Body Column 3 </td>
+									</tr>
+									<tr>
+										<td> #2 Body Column 1 </td>
+										<td> #2 Body Column 2 </td>
+										<td> #2 Body Column 3 </td>
+									</tr>
+									<tr>
+										<td> #3 Body Column 1 </td>
+										<td> #3 Body Column 2 </td>
+										<td> #3 Body Column 3 </td>
+									</tr>
+								</tbody>
+								<tfoot>
+									<tr>
+										<td> Footer Column #1 </td>
+										<td> Footer Column #2 </td>
+										<td> Footer Column #3 </td>
+									</tr>
+								</tfoot>
+							</table>
+							<pre><code class="language-html">&lt;table class="table table-fluid table-hover"&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt; Header Column #1 &lt;/th&gt;
+            &lt;th&gt; Header Column #2 &lt;/th&gt;
+            &lt;th&gt; Header Column #3 &lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt; #1 Body Column 1 &lt;/td&gt;
+            &lt;td&gt; #1 Body Column 2 &lt;/td&gt;
+            &lt;td&gt; #1 Body Column 3 &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt; #2 Body Column 1 &lt;/td&gt;
+            &lt;td&gt; #2 Body Column 2 &lt;/td&gt;
+            &lt;td&gt; #2 Body Column 3 &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt; #3 Body Column 1 &lt;/td&gt;
+            &lt;td&gt; #3 Body Column 2 &lt;/td&gt;
+            &lt;td&gt; #3 Body Column 3 &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+    &lt;tfoot&gt;
+        &lt;tr&gt;
+            &lt;td&gt; Footer Column #1 &lt;/td&gt;
+            &lt;td&gt; Footer Column #2 &lt;/td&gt;
+            &lt;td&gt; Footer Column #3 &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tfoot&gt;
+&lt;/table&gt;</code></pre>
+						</div>
+					</div><br /><br />
+					<h1 class="doc-title" id="hover-fluid"> Table Responsive </h1>
+					<div class="row text-center">
+						<div class="col col-15">
+							<div class="table-responsive">
+								<table class="table">
+									<thead >
+										<tr>
+											<th> Header Column #1 </th>
+											<th> Header Column #2 </th>
+											<th> Header Column #3 </th>
+											<th> Header Column #4 </th>
+											<th> Header Column #5 </th>
+											<th> Header Column #6 </th>
+											<th> Header Column #7 </th>
+											<th> Header Column #8 </th>
+											<th> Header Column #9 </th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>#1 Body Column 1</td>
+											<td>#2 Body Column 1</td>
+											<td>#3 Body Column 1</td>
+											<td>#4 Body Column 1</td>
+											<td>#5 Body Column 1</td>
+											<td>#6 Body Column 1</td>
+											<td>#7 Body Column 1</td>
+											<td>#8 Body Column 1</td>
+											<td>#9 Body Column 1</td>
+										</tr>
+										<tr>
+											<td>#1 Body Column 2</td>
+											<td>#2 Body Column 2</td>
+											<td>#3 Body Column 2</td>
+											<td>#4 Body Column 2</td>
+											<td>#5 Body Column 2</td>
+											<td>#6 Body Column 2</td>
+											<td>#7 Body Column 2</td>
+											<td>#8 Body Column 2</td>
+											<td>#9 Body Column 2</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<pre><code class="language-html">&lt;div class="table-responsive"&gt;
+	&lt;table class="table"&gt;
+		&lt;thead&gt;
+			&lt;tr&gt;
+				&lt;th&gt; Header Column #1 &lt;/th&gt;
+				&lt;th&gt; Header Column #2 &lt;/th&gt;
+				&lt;th&gt; Header Column #3 &lt;/th&gt;
+				&lt;th&gt; Header Column #4 &lt;/th&gt;
+				&lt;th&gt; Header Column #5 &lt;/th&gt;
+				&lt;th&gt; Header Column #6 &lt;/th&gt;
+				&lt;th&gt; Header Column #7 &lt;/th&gt;
+				&lt;th&gt; Header Column #8 &lt;/th&gt;
+				&lt;th&gt; Header Column #9 &lt;/th&gt;
+			&lt;/tr&gt;
+		&lt;/thead&gt;
+	    &lt;tbody&gt;
+			&lt;tr&gt;
+				&lt;td&gt; #1 Body Column 1 &lt;/td&gt;
+				&lt;td&gt; #2 Body Column 1 &lt;/td&gt;
+				&lt;td&gt; #3 Body Column 1 &lt;/td&gt;
+				&lt;td&gt; #4 Body Column 1 &lt;/td&gt;
+				&lt;td&gt; #5 Body Column 1 &lt;/td&gt;
+				&lt;td&gt; #6 Body Column 1 &lt;/td&gt;
+				&lt;td&gt; #7 Body Column 1 &lt;/td&gt;
+				&lt;td&gt; #8 Body Column 1 &lt;/td&gt;
+				&lt;td&gt; #9 Body Column 1 &lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt; #1 Body Column 2 &lt;/td&gt;
+				&lt;td&gt; #2 Body Column 2 &lt;/td&gt;
+				&lt;td&gt; #3 Body Column 2 &lt;/td&gt;
+				&lt;td&gt; #4 Body Column 2 &lt;/td&gt;
+				&lt;td&gt; #5 Body Column 2 &lt;/td&gt;
+				&lt;td&gt; #6 Body Column 2 &lt;/td&gt;
+				&lt;td&gt; #7 Body Column 2 &lt;/td&gt;
+				&lt;td&gt; #8 Body Column 2 &lt;/td&gt;
+				&lt;td&gt; #9 Body Column 2 &lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;/div&gt;</code></pre>
+						</div>
+					</div>
+				</div>
+				<div class="col-4" style="padding-left:15px;padding-right:15px;">
+					<div class="panel" style="margin-top:50px;">
+                        <div class="panel-header"> Menu: </div>
+						<div class="panel-body">
+							<ul>
+								<li><a href="#default">Table Default</a></li>
+								<li><a href="#fluid">Table Fluid</a></li>
+								<li><a href="#hover">Table Hover</a></li>
+								<li><a href="#hover-fluid">Table Hover + Fluid</a></li>
+							</ul>
+						</div>
+                    </div>
+					<div class="panel" style="margin-top:10px;">
+                        <div class="panel-header"> Getting Started: </div>
+						<div class="panel-body">
+							<ul>
+								<li><a href="container.html">Container</a></li>
+								<li><a href="grid.html">Grid System</a></li>
+								<li><a href="table.html">Table</a></li>
+								<li><a href="form.html">Form</a></li>
+							</ul>
+						</div>	
+                    </div>
+				</div>
+			</div>	
+	    </div> <br /><br /><br /><br />
+		<a href="#top" class="to-top">Top</a>
+	    <script type="text/javascript" src="../vendor/jquery/2.2.4/jquery.min.js?v=1.0.0"></script>
+	    <script type="text/javascript" src="../vendor/prismjs/1.0.0/prism.min.js?v=1.0.0"></script>
+		<script type="text/javascript" src="../assets/scripts/main.min.js?v=1.0.0"></script>
+    </body>
+</html>

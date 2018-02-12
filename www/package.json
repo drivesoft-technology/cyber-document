@@ -1,0 +1,20 @@
+{
+  "name": "cyber-framework",
+  "version": "1.0.0",
+  "description": "Minimal css framework",
+  "keywords": [
+    "cyber", "framework", "css", "drivesoft", "opensource"
+  ],
+  "author": {
+    "name": "Eakakbin Jaikeawma",
+    "email": "eakkabin@drivesoft.co.th",
+    "url": "https://drivesoft.co.th/cyber"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drivesoft-technology/cyber-framework.git"
+  }
+}

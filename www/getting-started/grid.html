@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title> Grid System | CYBER FRAMEWORK 1.0.0 </title>
+        <link rel="shortcut icon" href="../images/favicon-32x32.png" type="image/png">
+        <link rel="icon" href="../images/favicon-32x32.png" type="image/png">
+        <meta property="fb:app_id" content="206954636391257" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Cyber Framework 1.0.0" />
+        <meta property="og:description" content="cyber framework, max width 1200 px, 15 colume, flat ui style" />
+        <meta property="og:url" content="https://drivesoft.co.th/cyber" />
+        <meta property="og:site_name" content="cyber dot drivesoft dot net" />
+        <meta property="og:image" content="../images/demo.png" />
+        <meta name="keywords" content="CSS, CSS Framework, Open Source" />
+        <meta name="description" content="cyber framework, max width 1200 px, 15 colume, flat ui style" />
+        <meta name="author" content="Eakkabin Jaikeawma <eakkabin@drivesoft.co.th>" />
+        <script>document.write('<base href="' + document.location + '" />');</script>
+        <link rel="stylesheet" type="text/css" href="../vendor/cyber-framework/1.0.0/styles/cyber.min.css?v=1.0.0" />
+        <link rel="stylesheet" type="text/css" href="../vendor/cyber-framework/1.0.0/styles/cyber-component.min.css?v=1.0.0" />
+        <link rel="stylesheet" type="text/css" href="../vendor/prismjs/1.0.0/prism-okaidia.min.css?v=1.0.0" />
+        <link rel="stylesheet" type="text/css" href="../assets/styles/cyber-document.min.css?v=1.0.0" />
+		<script type="text/javascript" src="../assets/scripts/ga.js?v=1.0.0"></script>
+    </head>
+    <body id="top">
+    	<header class="header">
+			<div class="container-fluid">
+				<div class="row fluid">
+					<div class="col-7">
+						<a href="../"><h1 class="logo-name font-raleway color-turquoise">Cyber <small class="font-sans-serif">1.0.0</small></h1></a>
+					</div>
+					<div class="col-8">
+						<ul class="navbar">
+							<li><a href="../getting-started/index.html">Guide</a></li>
+							<li>Example</li>
+							<li>Theme</li>
+							<li>API</li>
+						</ul>
+					</div>
+				</div>	
+			</div>
+    	</header>
+	    <div class="container">
+			<div class="row">
+				<div class="col-11">
+					<h1 class="doc-title" id="grid"> Grid System </h1><br /><br />
+					<div class="row text-center">
+						<div class="col col-15"><div class="col-example bg-turquoise">col-15</div></div>
+					</div><br /><br />
+					<pre><code class="language-html">&lt;div class="row"&gt;
+	&lt;div class="col-15"&gt;&lt;div class="bg-turquoise"&gt;col-15&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;</code></pre><br /><br />
+					<div class="row text-center">
+						<div class="col col-5"><div class="col-example bg-turquoise">col-5</div></div>
+						<div class="col col-5"><div class="col-example bg-emerland">col-5</div></div>
+						<div class="col col-5"><div class="col-example bg-peterriver">col-5</div></div>
+					</div><br /><br />
+					<pre><code class="language-html">&lt;div class="row"&gt;
+	&lt;div class="col-5"&gt;&lt;div class="bg-turquoise"&gt;col-5&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-5"&gt;&lt;div class="bg-emerland"&gt;col-5&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-5"&gt;&lt;div class="bg-peterriver"&gt;col-5&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;</code></pre><br /><br />
+					<div class="row text-center">
+						<div class="col col-3"><div class="col-example bg-turquoise">col-3</div></div>
+						<div class="col col-3"><div class="col-example bg-emerland">col-3</div></div>
+						<div class="col col-3"><div class="col-example bg-peterriver">col-3</div></div>
+						<div class="col col-3"><div class="col-example bg-amethyst">col-3</div></div>
+						<div class="col col-3"><div class="col-example bg-wetasphalt">col-3</div></div>
+					</div><br /><br />
+					<pre><code class="language-html">&lt;div class="row"&gt;
+	&lt;div class="col-3"&gt;&lt;div class="bg-turquoise"&gt;col-3&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-3"&gt;&lt;div class="bg-emerland"&gt;col-3&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-3"&gt;&lt;div class="bg-peterriver"&gt;col-3&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-3"&gt;&lt;div class="bg-amethyst"&gt;col-3&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-3"&gt;&lt;div class="bg-wetasphalt"&gt;col-3&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;</code></pre><br /><br />
+					<div class="row text-center">
+						<div class="col col-2"><div class="col-example bg-turquoise">col-2</div></div>
+						<div class="col col-2"><div class="col-example bg-emerland">col-2</div></div>
+						<div class="col col-2"><div class="col-example bg-peterriver">col-2</div></div>
+						<div class="col col-2"><div class="col-example bg-amethyst">col-2</div></div>
+						<div class="col col-2"><div class="col-example bg-wetasphalt">col-2</div></div>
+						<div class="col col-2"><div class="col-example bg-greensea">col-2</div></div>
+						<div class="col col-2"><div class="col-example bg-nephritis">col-2</div></div>
+						<div class="col col-1"><div class="col-example bg-belizehole">col-1</div></div>
+					</div><br /><br />
+					<pre><code class="language-html">&lt;div class="row"&gt;
+	&lt;div class="col-2"&gt;&lt;div class="bg-turquoise"&gt;col-2&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-2"&gt;&lt;div class="bg-emerland"&gt;col-2&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-2"&gt;&lt;div class="bg-peterriver"&gt;col-2&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-2"&gt;&lt;div class="bg-amethyst"&gt;col-2&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-2"&gt;&lt;div class="bg-wetasphalt"&gt;col-2&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-2"&gt;&lt;div class="bg-greensea"&gt;col-2&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-2"&gt;&lt;div class="bg-nephritis"&gt;col-2&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-1"&gt;&lt;div class="bg-belizehole"&gt;col-1&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;</code></pre><br /><br />
+					<div class="row text-center">
+						<div class="col col-1"><div class="col-example bg-turquoise">col-1</div></div>
+						<div class="col col-1"><div class="col-example bg-emerland">col-1</div></div>
+						<div class="col col-1"><div class="col-example bg-peterriver">col-1</div></div>
+						<div class="col col-1"><div class="col-example bg-amethyst">col-1</div></div>
+						<div class="col col-1"><div class="col-example bg-wetasphalt">col-1</div></div>
+						<div class="col col-1"><div class="col-example bg-greensea">col-1</div></div>
+						<div class="col col-1"><div class="col-example bg-nephritis">col-1</div></div>
+						<div class="col col-1"><div class="col-example bg-belizehole">col-1</div></div>
+						<div class="col col-1"><div class="col-example bg-wisteria">col-1</div></div>
+						<div class="col col-1"><div class="col-example bg-midnightblue">col-1</div></div>
+						<div class="col col-1"><div class="col-example bg-sunflower">col-1</div></div>
+						<div class="col col-1"><div class="col-example bg-carrot">col-1</div></div>
+						<div class="col col-1"><div class="col-example bg-alizarin">col-1</div></div>
+						<div class="col col-1"><div class="col-example bg-clouds" style="color:#2C3E50;">col-1</div></div>
+						<div class="col col-1"><div class="col-example bg-concrete">col-1</div></div>
+					</div><br /><br />
+					<pre><code class="language-html">&lt;div class="row"&gt;
+	&lt;div class="col-1"&gt;&lt;div class="bg-turquoise"&gt;col-1&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-1"&gt;&lt;div class="bg-emerland"&gt;col-1&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-1"&gt;&lt;div class="bg-peterriver"&gt;col-1&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-1"&gt;&lt;div class="bg-amethyst"&gt;col-1&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-1"&gt;&lt;div class="bg-wetasphalt"&gt;col-1&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-1"&gt;&lt;div class="bg-greensea"&gt;col-1&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-1"&gt;&lt;div class="bg-nephritis"&gt;col-1&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-1"&gt;&lt;div class="bg-belizehole"&gt;col-1&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-1"&gt;&lt;div class="bg-wisteria"&gt;col-1&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-1"&gt;&lt;div class="bg-midnightblue"&gt;col-1&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-1"&gt;&lt;div class="bg-sunflower"&gt;col-1&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-1"&gt;&lt;div class="bg-carrot"&gt;col-1&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-1"&gt;&lt;div class="bg-alizarin"&gt;col-1&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-1"&gt;&lt;div class="bg-clouds"&gt;col-1&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-1"&gt;&lt;div class="bg-concrete"&gt;col-1&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+				</div>
+				<div class="col-4" style="padding-left:15px;padding-right:15px;">
+					<div class="panel" style="margin-top:50px;">
+                        <div class="panel-header"> Menu: </div>
+						<div class="panel-body">
+							<ul>
+								<li><a href="#grid">Grid System</a></li>
+								<li><a href="#flex">Flex Layout</a></li>
+							</ul>
+						</div>	
+                    </div>
+					<div class="panel" style="margin-top:10px;">
+                        <div class="panel-header"> Getting Started: </div>
+						<div class="panel-body">
+							<ul>
+								<li><a href="container.html">Container</a></li>
+								<li><a href="grid.html">Grid System</a></li>
+								<li><a href="table.html">Table</a></li>
+								<li><a href="form.html">Form</a></li>
+							</ul>
+						</div>	
+                    </div>
+				</div>	
+			</div>
+	    </div>
+	    <div class="container"><br /><br />
+			<div class="row">
+				<div class="col-11">
+					<h1 class="doc-title" id="flex"> Flex Layout </h1><br /><br />
+					<div class="row row-between text-center">
+						<div class="col col-3"><div class="col-example bg-turquoise">col-3</div></div>
+						<div class="col col-3"><div class="col-example bg-emerland">col-3</div></div>
+						<div class="col col-3"><div class="col-example bg-peterriver">col-3</div></div>
+					</div><br /><br />
+					<pre><code class="language-html">&lt;div class="row row-between"&gt;
+	&lt;div class="col-3"&gt;&lt;div class="bg-turquoise"&gt;col-3&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-3"&gt;&lt;div class="bg-emerland"&gt;col-3&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-3"&gt;&lt;div class="bg-peterriver"&gt;col-3&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;</code></pre><br /><br />
+					<div class="row row-center text-center">
+						<div class="col col-3"><div class="col-example bg-turquoise">col-3</div></div>
+						<div class="col col-3"><div class="col-example bg-emerland">col-3</div></div>
+						<div class="col col-3"><div class="col-example bg-peterriver">col-3</div></div>
+					</div><br /><br />
+					<pre><code class="language-html">&lt;div class="row row-center"&gt;
+	&lt;div class="col-3"&gt;&lt;div class="bg-turquoise"&gt;col-3&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-3"&gt;&lt;div class="bg-emerland"&gt;col-3&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-3"&gt;&lt;div class="bg-peterriver"&gt;col-3&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;</code></pre><br /><br />
+					<div class="row row-left text-center">
+						<div class="col col-3"><div class="col-example bg-turquoise">col-3</div></div>
+						<div class="col col-3"><div class="col-example bg-emerland">col-3</div></div>
+						<div class="col col-3"><div class="col-example bg-peterriver">col-3</div></div>
+					</div><br /><br />
+					<pre><code class="language-html">&lt;div class="row row-left"&gt;
+	&lt;div class="col-3"&gt;&lt;div class="bg-turquoise"&gt;col-3&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-3"&gt;&lt;div class="bg-emerland"&gt;col-3&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-3"&gt;&lt;div class="bg-peterriver"&gt;col-3&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;</code></pre><br /><br />
+					<div class="row row-right text-center">
+						<div class="col col-3"><div class="col-example bg-turquoise">col-3</div></div>
+						<div class="col col-3"><div class="col-example bg-emerland">col-3</div></div>
+						<div class="col col-3"><div class="col-example bg-peterriver">col-3</div></div>
+					</div><br /><br />
+					<pre><code class="language-html">&lt;div class="row row-right"&gt;
+	&lt;div class="col-3"&gt;&lt;div class="bg-turquoise"&gt;col-3&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-3"&gt;&lt;div class="bg-emerland"&gt;col-3&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-3"&gt;&lt;div class="bg-peterriver"&gt;col-3&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;</code></pre><br /><br />
+					<div class="row row-auto text-center">
+						<div class="col col-3"><div class="col-example bg-turquoise">col-3</div></div>
+						<div class="col col-3"><div class="col-example bg-emerland">col-3</div></div>
+						<div class="col col-3"><div class="col-example bg-peterriver">col-3</div></div>
+					</div><br /><br />
+					<pre><code class="language-html">&lt;div class="row row-auto"&gt;
+	&lt;div class="col-3"&gt;&lt;div class="bg-turquoise"&gt;col-3&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-3"&gt;&lt;div class="bg-emerland"&gt;col-3&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-3"&gt;&lt;div class="bg-peterriver"&gt;col-3&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+				</div>
+				<div class="col-4"></div>	
+			</div>
+	    </div> <br /><br /><br /><br />
+		<a href="#top" class="to-top">Top</a>
+	    <script type="text/javascript" src="../vendor/jquery/2.2.4/jquery.min.js?v=1.0.0"></script>
+	    <script type="text/javascript" src="../vendor/prismjs/1.0.0/prism.min.js?v=1.0.0"></script>
+		<script type="text/javascript" src="../assets/scripts/main.min.js?v=1.0.0"></script>
+    </body>
+</html>
